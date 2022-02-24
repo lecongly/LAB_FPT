@@ -44,7 +44,6 @@ void function3(){
 }
 int main() {
   int choice;
-  do {
     printf("\n=========MENU==========\n");
     printf("1- Calculating Fuel Economy\n");
     printf("2- Calculating Distance Traveled\n");
@@ -65,6 +64,5 @@ int main() {
     default:
       break;
     }
-  } while (choice < 0 && choice > 4);
   return 0;
 }
